@@ -2,6 +2,11 @@
 
 A minecraft mod that is ment to be an all in one for building a park, I unfortantly used claude for this because I want to learn top code but havn't done so yet, please change it to be human coded!
 
+Download
+========
+Alpha test build: [`releases/triassicisland-0.1.0.jar`](releases/triassicisland-0.1.0.jar)
+Drop it in the `mods` folder on Minecraft 1.20.1 with Forge/NeoForge 47.1+. See [releases/README.txt](releases/README.txt) for install notes.
+
 
 Installation information
 =======
