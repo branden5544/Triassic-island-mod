@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GL ",
+    " F ",
+    "  B"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "L": {
+      "item": "triassicisland:led_200v_bulb"
+    },
+    "F": {
+      "item": "triassicisland:small_flashlight"
+    },
+    "B": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "triassicisland:improved_flashlight"
+  }
+}

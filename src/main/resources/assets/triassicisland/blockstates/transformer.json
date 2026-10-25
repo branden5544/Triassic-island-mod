@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "facing=north,step_up=true": {
+      "model": "triassicisland:block/transformer_step_up"
+    },
+    "facing=north,step_up=false": {
+      "model": "triassicisland:block/transformer_step_down"
+    },
+    "facing=south,step_up=true": {
+      "model": "triassicisland:block/transformer_step_up",
+      "y": 180
+    },
+    "facing=south,step_up=false": {
+      "model": "triassicisland:block/transformer_step_down",
+      "y": 180
+    },
+    "facing=east,step_up=true": {
+      "model": "triassicisland:block/transformer_step_up",
+      "y": 90
+    },
+    "facing=east,step_up=false": {
+      "model": "triassicisland:block/transformer_step_down",
+      "y": 90
+    },
+    "facing=west,step_up=true": {
+      "model": "triassicisland:block/transformer_step_up",
+      "y": 270
+    },
+    "facing=west,step_up=false": {
+      "model": "triassicisland:block/transformer_step_down",
+      "y": 270
+    },
+    "facing=up,step_up=true": {
+      "model": "triassicisland:block/transformer_step_up",
+      "x": 270
+    },
+    "facing=up,step_up=false": {
+      "model": "triassicisland:block/transformer_step_down",
+      "x": 270
+    },
+    "facing=down,step_up=true": {
+      "model": "triassicisland:block/transformer_step_up",
+      "x": 90
+    },
+    "facing=down,step_up=false": {
+      "model": "triassicisland:block/transformer_step_down",
+      "x": 90
+    }
+  }
+}

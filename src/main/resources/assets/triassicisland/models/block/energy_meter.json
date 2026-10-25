@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "triassicisland:block/energy_meter_side",
+    "north": "triassicisland:block/energy_meter_end",
+    "south": "triassicisland:block/energy_meter_end",
+    "east": "triassicisland:block/energy_meter_side",
+    "west": "triassicisland:block/energy_meter_side",
+    "up": "triassicisland:block/energy_meter_side",
+    "down": "triassicisland:block/energy_meter_side"
+  }
+}

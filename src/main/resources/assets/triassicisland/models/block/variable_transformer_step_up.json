@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "triassicisland:block/variable_transformer_side",
+    "north": "triassicisland:block/variable_transformer_front_up",
+    "south": "triassicisland:block/variable_transformer_back",
+    "east": "triassicisland:block/variable_transformer_side",
+    "west": "triassicisland:block/variable_transformer_side",
+    "up": "triassicisland:block/variable_transformer_side",
+    "down": "triassicisland:block/variable_transformer_side"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/monitor"
+    },
+    "facing=east": {
+      "model": "triassicisland:block/monitor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "triassicisland:block/monitor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "triassicisland:block/monitor",
+      "y": 270
+    }
+  }
+}

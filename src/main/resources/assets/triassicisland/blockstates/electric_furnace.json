@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/electric_furnace"
+    },
+    "facing=east": {
+      "model": "triassicisland:block/electric_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "triassicisland:block/electric_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "triassicisland:block/electric_furnace",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "GRG",
+    " I "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:red_stained_glass"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "triassicisland:fence_warning_light",
+    "count": 2
+  }
+}

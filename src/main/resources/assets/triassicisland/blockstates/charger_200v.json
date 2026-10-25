@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/charger_200v"
+    },
+    "facing=east": {
+      "model": "triassicisland:block/charger_200v",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "triassicisland:block/charger_200v",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "triassicisland:block/charger_200v",
+      "y": 270
+    }
+  }
+}

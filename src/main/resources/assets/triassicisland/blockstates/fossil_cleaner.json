@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/fossil_cleaner"
+    },
+    "facing=east": {
+      "model": "triassicisland:block/fossil_cleaner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "triassicisland:block/fossil_cleaner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "triassicisland:block/fossil_cleaner",
+      "y": 270
+    }
+  }
+}

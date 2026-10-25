@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S",
+    "C",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:smooth_stone"
+    },
+    "C": {
+      "item": "triassicisland:medium_voltage_cable"
+    }
+  },
+  "result": {
+    "item": "triassicisland:concrete_fence_pillar",
+    "count": 4
+  }
+}

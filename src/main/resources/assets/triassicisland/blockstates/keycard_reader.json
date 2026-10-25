@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,powered=false": {
+      "model": "triassicisland:block/keycard_reader"
+    },
+    "facing=north,powered=true": {
+      "model": "triassicisland:block/keycard_reader_on"
+    },
+    "facing=east,powered=false": {
+      "model": "triassicisland:block/keycard_reader",
+      "y": 90
+    },
+    "facing=east,powered=true": {
+      "model": "triassicisland:block/keycard_reader_on",
+      "y": 90
+    },
+    "facing=south,powered=false": {
+      "model": "triassicisland:block/keycard_reader",
+      "y": 180
+    },
+    "facing=south,powered=true": {
+      "model": "triassicisland:block/keycard_reader_on",
+      "y": 180
+    },
+    "facing=west,powered=false": {
+      "model": "triassicisland:block/keycard_reader",
+      "y": 270
+    },
+    "facing=west,powered=true": {
+      "model": "triassicisland:block/keycard_reader_on",
+      "y": 270
+    }
+  }
+}

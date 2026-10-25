@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BCB",
+    "CRC",
+    "BCB"
+  ],
+  "key": {
+    "B": {
+      "item": "triassicisland:battery"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "triassicisland:large_battery",
+    "count": 1
+  }
+}

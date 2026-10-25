@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "CXC",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "triassicisland:medium_voltage_cable"
+    },
+    "X": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "result": {
+    "item": "triassicisland:medium_voltage_wire_coil",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/fuel_generator"
+    },
+    "facing=east": {
+      "model": "triassicisland:block/fuel_generator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "triassicisland:block/fuel_generator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "triassicisland:block/fuel_generator",
+      "y": 270
+    }
+  }
+}

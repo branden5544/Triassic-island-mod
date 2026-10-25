@@ -1,0 +1,10 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "triassicisland:block/suspended_lamp_socket_mount",
+        "x": 180
+      }
+    }
+  ]
+}

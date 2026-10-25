@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FFF",
+    "FHF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "triassicisland:electric_fence"
+    },
+    "H": {
+      "item": "triassicisland:high_voltage_cable"
+    }
+  },
+  "result": {
+    "item": "triassicisland:high_voltage_fence",
+    "count": 8
+  }
+}

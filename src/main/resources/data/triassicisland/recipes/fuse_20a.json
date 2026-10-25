@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G",
+    "W",
+    "G"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "W": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "triassicisland:fuse_20a",
+    "count": 4
+  }
+}

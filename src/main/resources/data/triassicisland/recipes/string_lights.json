@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GCG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "C": {
+      "item": "triassicisland:low_voltage_cable"
+    }
+  },
+  "result": {
+    "item": "triassicisland:string_lights",
+    "count": 4
+  }
+}

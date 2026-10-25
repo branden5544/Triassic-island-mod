@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "triassicisland:block/battery_top",
+    "side": "triassicisland:block/battery_side"
+  }
+}

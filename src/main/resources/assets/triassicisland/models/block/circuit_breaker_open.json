@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "triassicisland:block/circuit_breaker_side",
+    "north": "triassicisland:block/circuit_breaker_end",
+    "south": "triassicisland:block/circuit_breaker_end",
+    "up": "triassicisland:block/circuit_breaker_open",
+    "down": "triassicisland:block/circuit_breaker_side",
+    "east": "triassicisland:block/circuit_breaker_open",
+    "west": "triassicisland:block/circuit_breaker_open"
+  }
+}

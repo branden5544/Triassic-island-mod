@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/kinetic_generator_200v"
+    },
+    "facing=south": {
+      "model": "triassicisland:block/kinetic_generator_200v",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "triassicisland:block/kinetic_generator_200v",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "triassicisland:block/kinetic_generator_200v",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "triassicisland:block/kinetic_generator_200v",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "triassicisland:block/kinetic_generator_200v",
+      "x": 90
+    }
+  }
+}

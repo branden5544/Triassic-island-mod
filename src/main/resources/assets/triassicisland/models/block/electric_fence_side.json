@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/iron_bars_side",
+  "textures": {
+    "particle": "triassicisland:block/electric_fence",
+    "bars": "triassicisland:block/electric_fence",
+    "edge": "triassicisland:block/electric_fence_edge"
+  }
+}

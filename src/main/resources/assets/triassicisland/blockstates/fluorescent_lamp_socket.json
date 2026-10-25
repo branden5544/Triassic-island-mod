@@ -1,0 +1,202 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "up",
+        "has_bulb": "false"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_empty"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "has_bulb": "true",
+        "light": "0"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_off"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "has_bulb": "true",
+        "light": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_on"
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "has_bulb": "false"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_empty",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "has_bulb": "true",
+        "light": "0"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_off",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "has_bulb": "true",
+        "light": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_on",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "has_bulb": "false"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_empty",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "has_bulb": "true",
+        "light": "0"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_off",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "has_bulb": "true",
+        "light": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_on",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "has_bulb": "false"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_empty",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "has_bulb": "true",
+        "light": "0"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_off",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "has_bulb": "true",
+        "light": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_on",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "has_bulb": "false"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_empty",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "has_bulb": "true",
+        "light": "0"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_off",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "has_bulb": "true",
+        "light": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_on",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "has_bulb": "false"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_empty",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "has_bulb": "true",
+        "light": "0"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_off",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "has_bulb": "true",
+        "light": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"
+      },
+      "apply": {
+        "model": "triassicisland:block/fluorescent_lamp_socket_on",
+        "x": 90,
+        "y": 270
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I",
+    "C",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "triassicisland:medium_voltage_cable"
+    }
+  },
+  "result": {
+    "item": "triassicisland:steel_fence_pillar",
+    "count": 4
+  }
+}

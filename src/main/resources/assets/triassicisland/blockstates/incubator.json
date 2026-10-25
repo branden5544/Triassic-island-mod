@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/incubator"
+    },
+    "facing=east": {
+      "model": "triassicisland:block/incubator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "triassicisland:block/incubator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "triassicisland:block/incubator",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "light=0": {
+      "model": "triassicisland:block/floodlight"
+    },
+    "light=1": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=2": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=3": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=4": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=5": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=6": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=7": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=8": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=9": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=10": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=11": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=12": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=13": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=14": {
+      "model": "triassicisland:block/floodlight_on"
+    },
+    "light=15": {
+      "model": "triassicisland:block/floodlight_on"
+    }
+  }
+}

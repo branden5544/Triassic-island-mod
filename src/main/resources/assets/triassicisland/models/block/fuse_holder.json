@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "triassicisland:block/fuse_holder",
+    "north": "triassicisland:block/energy_meter_end",
+    "south": "triassicisland:block/energy_meter_end",
+    "east": "triassicisland:block/fuse_holder",
+    "west": "triassicisland:block/fuse_holder",
+    "up": "triassicisland:block/fuse_holder",
+    "down": "triassicisland:block/fuse_holder"
+  }
+}

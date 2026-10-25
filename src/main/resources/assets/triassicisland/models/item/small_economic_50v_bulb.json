@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "triassicisland:item/small_economic_50v_bulb"
+  }
+}

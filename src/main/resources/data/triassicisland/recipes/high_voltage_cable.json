@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "III",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "triassicisland:medium_voltage_cable"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "triassicisland:high_voltage_cable",
+    "count": 6
+  }
+}

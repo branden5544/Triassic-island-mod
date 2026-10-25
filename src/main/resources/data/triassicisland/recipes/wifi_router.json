@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "N N",
+    "IRI",
+    "IDI"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:ender_pearl"
+    },
+    "D": {
+      "item": "triassicisland:data_cable"
+    }
+  },
+  "result": {
+    "item": "triassicisland:wifi_router",
+    "count": 1
+  }
+}

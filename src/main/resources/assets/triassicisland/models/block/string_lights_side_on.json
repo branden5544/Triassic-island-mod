@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "wire": "triassicisland:block/string_lights_on",
+    "particle": "triassicisland:block/string_lights"
+  },
+  "elements": [
+    {
+      "from": [
+        7.5,
+        7.5,
+        0
+      ],
+      "to": [
+        8.5,
+        8.5,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wire"
+        },
+        "south": {
+          "texture": "#wire"
+        },
+        "east": {
+          "texture": "#wire"
+        },
+        "west": {
+          "texture": "#wire"
+        },
+        "up": {
+          "texture": "#wire"
+        },
+        "down": {
+          "texture": "#wire"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LLL",
+    "KKK",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "triassicisland:low_voltage_cable"
+    },
+    "K": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "result": {
+    "item": "triassicisland:medium_voltage_cable",
+    "count": 6
+  }
+}

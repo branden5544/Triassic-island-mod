@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "on=false": {
+      "model": "triassicisland:block/smart_switch"
+    },
+    "on=true": {
+      "model": "triassicisland:block/smart_switch_on"
+    }
+  }
+}

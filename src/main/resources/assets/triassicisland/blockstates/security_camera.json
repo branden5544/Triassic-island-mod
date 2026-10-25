@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/security_camera"
+    },
+    "facing=east": {
+      "model": "triassicisland:block/security_camera",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "triassicisland:block/security_camera",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "triassicisland:block/security_camera",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "facing=north,has_fuse=true": {
+      "model": "triassicisland:block/fuse_holder_full"
+    },
+    "facing=north,has_fuse=false": {
+      "model": "triassicisland:block/fuse_holder"
+    },
+    "facing=south,has_fuse=true": {
+      "model": "triassicisland:block/fuse_holder_full",
+      "y": 180
+    },
+    "facing=south,has_fuse=false": {
+      "model": "triassicisland:block/fuse_holder",
+      "y": 180
+    },
+    "facing=east,has_fuse=true": {
+      "model": "triassicisland:block/fuse_holder_full",
+      "y": 90
+    },
+    "facing=east,has_fuse=false": {
+      "model": "triassicisland:block/fuse_holder",
+      "y": 90
+    },
+    "facing=west,has_fuse=true": {
+      "model": "triassicisland:block/fuse_holder_full",
+      "y": 270
+    },
+    "facing=west,has_fuse=false": {
+      "model": "triassicisland:block/fuse_holder",
+      "y": 270
+    },
+    "facing=up,has_fuse=true": {
+      "model": "triassicisland:block/fuse_holder_full",
+      "x": 270
+    },
+    "facing=up,has_fuse=false": {
+      "model": "triassicisland:block/fuse_holder",
+      "x": 270
+    },
+    "facing=down,has_fuse=true": {
+      "model": "triassicisland:block/fuse_holder_full",
+      "x": 90
+    },
+    "facing=down,has_fuse=false": {
+      "model": "triassicisland:block/fuse_holder",
+      "x": 90
+    }
+  }
+}

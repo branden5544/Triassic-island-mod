@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "triassicisland:item/mosquito_in_amber"
+  }
+}

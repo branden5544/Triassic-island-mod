@@ -1,0 +1,73 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "light": "0"
+      },
+      "apply": {
+        "model": "triassicisland:block/string_lights_core"
+      }
+    },
+    {
+      "when": {
+        "light": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"
+      },
+      "apply": {
+        "model": "triassicisland:block/string_lights_core_on"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "triassicisland:block/string_lights_side"
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "triassicisland:block/string_lights_side",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "triassicisland:block/string_lights_side",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "triassicisland:block/string_lights_side",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "triassicisland:block/string_lights_side",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "down": "true"
+      },
+      "apply": {
+        "model": "triassicisland:block/string_lights_side",
+        "x": 90
+      }
+    }
+  ]
+}

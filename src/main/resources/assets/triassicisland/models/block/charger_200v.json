@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "triassicisland:block/machine_top",
+    "bottom": "triassicisland:block/machine_bottom",
+    "side": "triassicisland:block/machine_side",
+    "front": "triassicisland:block/charger_200v_front"
+  }
+}

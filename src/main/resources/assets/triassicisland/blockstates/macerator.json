@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/macerator"
+    },
+    "facing=east": {
+      "model": "triassicisland:block/macerator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "triassicisland:block/macerator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "triassicisland:block/macerator",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " CG",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "C": {
+      "item": "triassicisland:lamp_socket_a"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "triassicisland:street_light",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BCB",
+    "BCB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "C": {
+      "item": "triassicisland:medium_voltage_cable"
+    }
+  },
+  "result": {
+    "item": "triassicisland:electric_fence",
+    "count": 6
+  }
+}

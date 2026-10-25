@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TLT",
+    " L "
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:terracotta"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "triassicisland:pole_insulator",
+    "count": 2
+  }
+}

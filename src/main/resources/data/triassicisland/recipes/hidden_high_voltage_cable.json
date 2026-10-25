@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "triassicisland:high_voltage_cable"
+    },
+    {
+      "tag": "minecraft:stone_crafting_materials"
+    }
+  ],
+  "result": {
+    "item": "triassicisland:hidden_high_voltage_cable",
+    "count": 1
+  }
+}

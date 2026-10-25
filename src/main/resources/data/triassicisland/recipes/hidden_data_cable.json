@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "triassicisland:data_cable"
+    },
+    {
+      "tag": "minecraft:stone_crafting_materials"
+    }
+  ],
+  "result": {
+    "item": "triassicisland:hidden_data_cable",
+    "count": 1
+  }
+}

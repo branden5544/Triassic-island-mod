@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "triassicisland:block/wifi_router"
+    },
+    "powered=true": {
+      "model": "triassicisland:block/wifi_router_on"
+    }
+  }
+}

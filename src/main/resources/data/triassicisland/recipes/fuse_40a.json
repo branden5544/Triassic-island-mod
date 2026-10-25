@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G",
+    "W",
+    "G"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "W": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "triassicisland:fuse_40a",
+    "count": 4
+  }
+}

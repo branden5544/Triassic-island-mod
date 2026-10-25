@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "create:block/andesite_casing",
+    "north": "create:block/andesite_casing",
+    "south": "triassicisland:block/kinetic_generator_50v_side",
+    "east": "triassicisland:block/kinetic_generator_50v_side",
+    "west": "triassicisland:block/kinetic_generator_50v_side",
+    "up": "create:block/andesite_casing",
+    "down": "create:block/andesite_casing"
+  }
+}

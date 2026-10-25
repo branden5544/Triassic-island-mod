@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "GXG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "X": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "triassicisland:small_economic_50v_bulb",
+    "count": 2
+  }
+}

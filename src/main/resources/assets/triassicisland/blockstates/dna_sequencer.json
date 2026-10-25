@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/dna_sequencer"
+    },
+    "facing=east": {
+      "model": "triassicisland:block/dna_sequencer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "triassicisland:block/dna_sequencer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "triassicisland:block/dna_sequencer",
+      "y": 270
+    }
+  }
+}

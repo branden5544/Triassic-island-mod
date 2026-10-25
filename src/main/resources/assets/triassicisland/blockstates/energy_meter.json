@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/energy_meter"
+    },
+    "facing=south": {
+      "model": "triassicisland:block/energy_meter",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "triassicisland:block/energy_meter",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "triassicisland:block/energy_meter",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "triassicisland:block/energy_meter",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "triassicisland:block/energy_meter",
+      "x": 90
+    }
+  }
+}

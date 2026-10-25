@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GI",
+    "GR",
+    "GI"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "triassicisland:sliding_glass_door",
+    "count": 1
+  }
+}

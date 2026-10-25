@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "triassicisland:block/computer_top",
+    "bottom": "triassicisland:block/machine_bottom",
+    "side": "triassicisland:block/computer_side",
+    "front": "triassicisland:block/computer_front"
+  }
+}

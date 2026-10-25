@@ -1,0 +1,9 @@
+devices
+power
+fences
+doors
+cameras
+security
+smart
+dinotracker
+chat

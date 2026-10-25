@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/high_voltage_sign"
+    },
+    "facing=east": {
+      "model": "triassicisland:block/high_voltage_sign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "triassicisland:block/high_voltage_sign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "triassicisland:block/high_voltage_sign",
+      "y": 270
+    }
+  }
+}

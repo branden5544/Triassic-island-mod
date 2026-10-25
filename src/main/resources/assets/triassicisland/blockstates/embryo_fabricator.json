@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/embryo_fabricator"
+    },
+    "facing=east": {
+      "model": "triassicisland:block/embryo_fabricator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "triassicisland:block/embryo_fabricator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "triassicisland:block/embryo_fabricator",
+      "y": 270
+    }
+  }
+}

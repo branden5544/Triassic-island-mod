@@ -1,0 +1,90 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev.legacyforge' version '2.0.148'
+    id 'idea'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+// Minecraft 1.20.1 runs on Java 17.
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+legacyForge {
+    version = "${minecraft_version}-${forge_version}"
+
+    parchment {
+        mappingsVersion = project.parchment_mappings_version
+        minecraftVersion = project.parchment_minecraft_version
+    }
+
+    runs {
+        client {
+            client()
+        }
+        server {
+            server()
+            programArgument '--nogui'
+        }
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url "https://maven.maxhenkel.de/repository/public" }
+    maven { url "https://maven.createmod.net" }
+}
+
+dependencies {
+    // Python 2.7 for in-game computers. Bundled inside the mod jar (jar-in-jar).
+    jarJar(implementation("org.python:jython-standalone:2.7.4"))
+    additionalRuntimeClasspath "org.python:jython-standalone:2.7.4"
+    // Optional: phone calls through Simple Voice Chat. Only the API is needed to compile; the mod provides it at runtime.
+    compileOnly "de.maxhenkel.voicechat:voicechat-api:2.5.0"
+    // Optional: Create rotation -> electricity. Compile only (remapped); Create provides itself at runtime.
+    modCompileOnly("com.simibubi.create:create-1.20.1:6.0.8-291:slim") { transitive = false }
+    modCompileOnly("net.createmod.ponder:Ponder-Forge-1.20.1:1.0.92") { transitive = false }
+}
+
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [
+            minecraft_version_range: minecraft_version_range,
+            forge_version_range    : forge_version_range,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from "src/main/templates"
+    into "build/generated/sources/modMetadata"
+}
+sourceSets.main.resources.srcDir generateModMetadata
+legacyForge.ideSyncTask generateModMetadata
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}

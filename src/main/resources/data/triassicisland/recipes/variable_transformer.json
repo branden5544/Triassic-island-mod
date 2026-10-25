@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RTR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:comparator"
+    },
+    "T": {
+      "item": "triassicisland:transformer"
+    }
+  },
+  "result": {
+    "item": "triassicisland:variable_transformer",
+    "count": 1
+  }
+}

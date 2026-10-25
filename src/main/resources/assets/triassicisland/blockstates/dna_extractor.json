@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "triassicisland:block/dna_extractor"
+    },
+    "facing=east": {
+      "model": "triassicisland:block/dna_extractor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "triassicisland:block/dna_extractor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "triassicisland:block/dna_extractor",
+      "y": 270
+    }
+  }
+}

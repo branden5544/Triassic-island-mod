@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "triassicisland:low_voltage_cable"
+    },
+    {
+      "item": "triassicisland:data_cable"
+    }
+  ],
+  "result": {
+    "item": "triassicisland:combined_cable",
+    "count": 1
+  }
+}

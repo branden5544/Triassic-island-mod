@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "triassicisland:block/fence_warning_light"
+    },
+    "lit=true": {
+      "model": "triassicisland:block/fence_warning_light_on"
+    }
+  }
+}
